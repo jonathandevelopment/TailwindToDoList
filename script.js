@@ -1,3 +1,6 @@
+const client = supabase.createClient('https://xioqkgztmioablsvmqop.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhpb3FrZ3p0bWlvYWJsc3ZtcW9wIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODMyMzM1OTcsImV4cCI6MTk5ODgwOTU5N30.JK7n_hUYgOy3AmwTd4A5tCyLp79Oiq9hEHCv5_DFlQQ')
+console.log(client)
+
 
 var counter = 0;
 function addTask() {
